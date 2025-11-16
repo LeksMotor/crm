@@ -1,5 +1,5 @@
 # PowerShell-skript for å opprette CRM-liste i SharePoint
-Connect-PnPOnline -Url "https://<ditt-sharepoint-nettsted>.sharepoint.com/sites/<ditt-område>" -UseWebLogin
+Connect-PnPOnline -Url "https://leksmotor.sharepoint.com/sites/crm/Lists/crm2/AllItems.aspx?npsAction=createList" -UseWebLogin
 
 New-PnPList -Title "CRM Kontakter" -Template GenericList -OnQuickLaunch:$true
 

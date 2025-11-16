@@ -1,0 +1,46 @@
+{
+    "ListTitle": "CRM Kontakter",
+    "Columns": [
+        {
+            "Name": "Navn",
+            "Type": "Text"
+        },
+        {
+            "Name": "E-postadresse",
+            "Type": "Text"
+        },
+        {
+            "Name": "Firma",
+            "Type": "Text"
+        },
+        {
+            "Name": "Telefonnummer",
+            "Type": "Text"
+        },
+        {
+            "Name": "Emne",
+            "Type": "Text"
+        },
+        {
+            "Name": "Dato mottatt",
+            "Type": "DateTime"
+        },
+        {
+            "Name": "E-postinnhold",
+            "Type": "MultilineText"
+        },
+        {
+            "Name": "Status",
+            "Type": "Choice",
+            "Choices": [
+                "Venter",
+                "Under behandling",
+                "Utført"
+            ]
+        },
+        {
+            "Name": "Ansvarlig",
+            "Type": "Person"
+        }
+    ]
+}
